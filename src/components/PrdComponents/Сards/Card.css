@@ -1,0 +1,22 @@
+.card{
+    flex: 0 0 43%;
+    
+    
+
+
+}
+.resp{
+    display: flex;
+    flex-wrap: nowrap;
+    
+    flex-direction: column;
+}
+
+@media (max-width:668px) {
+    .resp{
+        flex-direction: column !important;
+    }
+}
+.img-fluid{
+    width: 350px;
+}

@@ -1,0 +1,54 @@
+/* ProductCarousel.css */
+@media (min-width: 768px) {
+    .info-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  
+    .info-text {
+      width: 70%;
+      padding: 2rem;
+    }
+  
+    .mobile-image {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .info-container {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  
+    .info-text {
+      width: 100%;
+      padding: 2rem;
+    }
+  
+    .mobile-image {
+      display: block;
+    }
+  }
+  @media (max-width:766px) {
+    .flexibe{
+      flex-direction: column !important;
+    }
+  }
+  
+  
+  .slider img {
+    
+    width: auto;
+    padding: 23px;
+  }

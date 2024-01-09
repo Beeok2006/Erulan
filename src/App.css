@@ -1,0 +1,15 @@
+
+h1{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 40px;
+    line-height: 42px;
+}
+.mainDescription{
+    margin-bottom: 76px;
+    line-height: 1.5;
+    letter-spacing: -0.4px;
+    font-size: 16px;
+    color: #4e5a66;
+    
+}

@@ -1,0 +1,21 @@
+ nav{
+    background-color: #0b9b4e;
+    margin-top: -10px;
+ }
+  @media (max-width:766px) {
+    nav{
+        display: flex !important;
+    flex-direction: column !important;
+    }
+  }
+  img {
+    width: 131px;
+    padding: 0px;
+    padding-left: 8px;
+    
+  }
+  .active{
+    border-bottom: 2px solid;
+
+  }
+  

@@ -1,0 +1,17 @@
+/* header.css */
+
+header{
+    background-color: #fff;
+    color: #fff;
+    padding: 0 16px;
+    display: flex;
+    position: fixed;
+    z-index: 10000 !important;
+  }
+  
+  .logo {
+    max-width: 40%;
+    padding: 16px;
+    margin: 0 auto; 
+  }
+  

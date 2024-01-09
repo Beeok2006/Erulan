@@ -1,0 +1,31 @@
+/* slider.css */
+
+.slider {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slider .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slider .slide {
+    flex-shrink: 0;
+  }
+  
+  .slider img {
+    width: 100%;
+    
+    object-fit: cover;
+    padding: 16px;
+    border-radius: 22px;
+  }
+  @media (max-width:566px) {
+    .slider img {
+  
+  width: auto !important;
+  
+      }
+      
+  }
